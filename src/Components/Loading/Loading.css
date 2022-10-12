@@ -1,0 +1,43 @@
+.loading-container {
+    position: fixed;
+    left: 0;
+    z-index: 101;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    transition: all ease-in-out .7s;
+}
+
+.loading-container h1 {
+    font-size: 4.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+    letter-spacing: 6px;
+}
+
+.loading-container button {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 17px;
+    border: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    text-align: center;
+    transition: all ease-in-out .2s;
+    text-transform: uppercase;
+}
+.loading-container button:hover {
+    /* transform: translate(-50%, -50%) scale(1); */
+    border: 2px solid white;
+}
